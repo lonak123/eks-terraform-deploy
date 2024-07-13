@@ -1,6 +1,6 @@
 variable "region" {
   description = "The AWS region to deploy to"
-  default     = "us-east-1"
+  default     = "eu-west-1"
 }
 
 variable "ami_id" {
@@ -16,6 +16,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "The name of the key pair to use for the instance"
   type        = string
+  default     = "lonak"
 }
 
 variable "security_group_id" {

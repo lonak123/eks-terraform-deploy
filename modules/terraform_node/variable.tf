@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the Terraform node"
   type        = string
-  default     = "ami-03c983f9003cb9cd1"
+  default     = "ami-0c38b837cd80f13bb"
 }
 
 variable "instance_type" {
@@ -13,6 +13,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "The key name for the Terraform node"
   type        = string
+  default     = "lonak"
 }
 
 variable "main-region" {

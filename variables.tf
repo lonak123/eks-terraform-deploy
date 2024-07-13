@@ -5,7 +5,7 @@
 
 variable "main-region" {
   type    = string
-  default = "us-west-2"
+  default = "eu-west-1"
 }
 
 
@@ -15,7 +15,7 @@ variable "main-region" {
 
 variable "cluster_name" {
   type    = string
-  default = "dominion-cluster"
+  default = "addbook-cluster"
 }
 
 variable "rolearn" {
@@ -82,7 +82,7 @@ variable "sso_admin_group_id" {
 # variable "ami_id" {
 #   description = "The AMI ID for the instances"
 #   type        = string
-#   default     = "ami-03c983f9003cb9cd1"
+#   default     = "ami-0c38b837cd80f13bb"
 # }
 
 # variable "instance_type" {
@@ -95,13 +95,13 @@ variable "sso_admin_group_id" {
 # variable "key_name" {
 #   description = "The key name for the instances"
 #   type        = string
-#   default     = "DevOps_key"
+#   default     = "lonak"
 # }
 
 # variable "s3_bucket" {
 #   description = "The name of the S3 bucket for storing Terraform state"
 #   type        = string
-#   default     = "terraform-state-bucket-fusi"
+#   default     = "terraform-state-bucket-lonak"
 # }
 
 # variable "dynamodb_table" {

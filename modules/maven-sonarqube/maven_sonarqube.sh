@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update the package repository and install necessary dependencies
-sudo yum update -y
-sudo yum install -y wget unzip
+sudo apt update -y
+sudo apt install -y wget unzip
 
 # Install Amazon Corretto 17 (Java 17)
-sudo yum install -y java-17-amazon-corretto-devel
+sudo apt install -y java-17-amazon-corretto-devel
 
 # Install Maven 3.9.6
 LATEST_MAVEN_VERSION=3.9.6
