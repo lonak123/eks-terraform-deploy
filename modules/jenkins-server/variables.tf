@@ -19,4 +19,5 @@ variable "key_name" {
 variable "main-region" {
   description = "The AWS region to deploy resources"
   type        = string
+  default     = "eu-west-1"
 }
